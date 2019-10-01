@@ -419,6 +419,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.soc.manufacturer=Qualcomm \
     ro.soc.model=SDM450
 
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Settings \
+    SystemUI
+
 # Telephony
 PRODUCT_PACKAGES += \
     qti-telephony-hidl-wrapper \
