@@ -83,6 +83,7 @@ ro.hardware.egl=adreno
 ro.opengles.version=196610
 debug.sf.enable_gl_backpressure=1
 debug.hwui.skia_atrace_enabled=false
+ro.config.avoid_gfx_accel=true
 
 # DRM
 drm.service.enabled=true
