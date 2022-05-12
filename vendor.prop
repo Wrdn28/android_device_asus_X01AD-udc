@@ -82,6 +82,7 @@ debug.sf.hwc.min.duration=17000000
 ro.hardware.egl=adreno
 ro.opengles.version=196610
 debug.sf.enable_gl_backpressure=1
+debug.hwui.skia_atrace_enabled=false
 
 # DRM
 drm.service.enabled=true
