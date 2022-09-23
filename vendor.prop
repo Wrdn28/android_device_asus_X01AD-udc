@@ -80,6 +80,7 @@ debug.sf.hwc.min.duration=17000000
 
 # Display
 ro.hardware.egl=adreno
+debug.hwui.use_hint_manager=true
 ro.opengles.version=196610
 debug.sf.enable_gl_backpressure=1
 debug.hwui.skia_atrace_enabled=false
