@@ -141,5 +141,7 @@ sys.vendor.shutdown.waittime=500
 # USB
 vendor.usb.product_string=Asus ZenFone Max (M2)
 
+# Zygote
+zygote.critical_window.minute=10
 
 # end
