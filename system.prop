@@ -180,7 +180,7 @@ ro.vendor.qti.va_aosp.support=1
 debug.cpurend.vsync=false
 
 #expose aux camera for below packages
-vendor.camera.aux.packagelist=com.android.camera,org.codeaurora.snapcam,co.aospa.sense
+vendor.camera.aux.packagelist=com.android.camera,org.codeaurora.snapcam,co.aospa.sense,org.lineageos.aperture
 
 persist.asus.led.on=1
 
