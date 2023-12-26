@@ -103,6 +103,7 @@ persist.backup.ntpServer=0.pool.ntp.org
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
+vendor.display.perf_hint_window=50
 
 # Qualcomm System Daemon
 persist.vendor.qcomsysd.enabled=1
