@@ -21,7 +21,7 @@ DEVICE_PROVISIONED=1
 #
 ro.telephony.default_network=22,22
 
-debug.sf.enable_hwc_vds=1
+debug.sf.enable_hwc_vds=0
 debug.sf.hw=0
 debug.egl.hw=0
 persist.hwc.mdpcomp.enable=true
@@ -47,6 +47,13 @@ vendor.display.disable_skip_validate=1
 
 # Charger
 ro.charger.disable_init_blank=true
+
+# Dalvik
+dalvik.vm.dex2oat64.enabled=true
+dalvik.vm.systemuicompilerfilter=speed
+dalvik.vm.image-dex2oat-threads=8
+dalvik.vm.dex2oat-filter=speed
+dalvik.vm.dex2oat-threads=8
 
 #ro.hdmi.enable=true
 #
