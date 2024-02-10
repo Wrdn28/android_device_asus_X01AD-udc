@@ -29,7 +29,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 
 CUSTOM_BUILD_TYPE := OFFICIAL
 HORIZON_MAINTAINER := Hirokixd28
-TARGET_BUILD_INNERTUNE := true
+TARGET_BUILD_VIMUSIC := true
 
 # Device identifiers.
 PRODUCT_NAME := aosp_X01AD
