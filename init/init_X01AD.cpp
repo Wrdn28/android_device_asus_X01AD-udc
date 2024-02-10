@@ -116,4 +116,8 @@ void vendor_load_properties()
     property_override("dalvik.vm.heaptargetutilization", heaptargetutilization);
     property_override("dalvik.vm.heapminfree", heapminfree);
     property_override("dalvik.vm.heapmaxfree", heapmaxfree);
+    property_override("ro.product.brand", "Asus");
+    property_override("ro.product.manufacturer", "Asus");
+    property_override("ro.product.device", "X01AD");
+    property_override("ro.product.marketname", "Zenfone Max M2");
 }
