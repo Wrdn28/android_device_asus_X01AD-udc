@@ -27,9 +27,10 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Set shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-CUSTOM_BUILD_TYPE := OFFICIAL
+HORIZON_BUILD_TYPE := OFFICIAL
 HORIZON_MAINTAINER := Hirokixd28
 TARGET_BUILD_VIMUSIC := true
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifiers.
 PRODUCT_NAME := aosp_X01AD
